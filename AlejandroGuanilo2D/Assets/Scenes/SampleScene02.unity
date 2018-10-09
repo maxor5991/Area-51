@@ -3069,9 +3069,9 @@ MonoBehaviour:
   defaultTarget: {fileID: 1453231884}
   defaultSize: 5
   currentTarget: {fileID: 0}
-  currentSize: 0
+  currentSize: 5
   speed: 5
-  zoomSpeed: 3
+  zoomSpeed: 5
   axisLimits:
   - 0
   - 0
