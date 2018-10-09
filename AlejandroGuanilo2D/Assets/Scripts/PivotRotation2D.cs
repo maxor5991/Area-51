@@ -22,14 +22,18 @@ public class PivotRotation2D : EntityMovement2D {
         base.Update ();
 
         currentPivotDirection -= (Vector2) movement / pivotDistance;
-        //transform.position = pivotPosition + ((transform.position - pivotPosition).normalized * pivotDistance);
+        Vector3 tempPivot = pivotPosition;
+        transform.position = pivotPosition + ((transform.position - pivotPosition).normalized * pivotDistance);
+        currentPivotDirection = (tempPivot - transform.position) / pivotDistance;
 
-        //Debug.Log (pivotPosition);
+        Debug.Log (pivotPosition);
     }
 
     void OnDrawGizmos () {
         Gizmos.color = Color.red;
         Gizmos.DrawSphere (pivotPosition, 0.15f);
         Gizmos.DrawRay (transform.position, direction);
+        Gizmos.color = Color.green;
+        Gizmos.DrawRay (transform.position, currentPivotDirection);
     }
 }

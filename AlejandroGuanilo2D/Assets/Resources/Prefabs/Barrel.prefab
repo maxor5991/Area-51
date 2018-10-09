@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212274881117580192}
   - component: {fileID: 61503995086122248}
   - component: {fileID: 114112096630073676}
+  - component: {fileID: 114288048471995470}
   m_Layer: 0
   m_Name: Barrel
   m_TagString: Barrel
@@ -58,7 +59,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1.2895086}
+    oldSize: {x: 2.5, y: 2.5}
     newSize: {x: 1, y: 1.2895086}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -80,6 +81,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1
   direction: {x: 0, y: 0}
+--- !u!114 &114288048471995470
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1971663098631108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98621c8589ae84d1ba8aeb8a275b9d5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212274881117580192
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -115,7 +127,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2dd209bc518ee56428681469c14905ed, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7c37e02f16ae743769b37f2bd4d48f89, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

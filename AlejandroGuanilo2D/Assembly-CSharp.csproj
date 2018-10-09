@@ -59,19 +59,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\BulletBehaviour.cs" />
     <Compile Include="Assets\Scripts\CamControl.cs" />
+    <Compile Include="Assets\Scripts\CollectableObject.cs" />
+    <Compile Include="Assets\Scripts\DestroyableObject.cs" />
     <Compile Include="Assets\Scripts\EntityMovement2D.cs" />
+    <Compile Include="Assets\Scripts\GameControl.cs" />
     <Compile Include="Assets\Scripts\MovimientoContinuo2D.cs" />
     <Compile Include="Assets\Scripts\MovimientoInstantaneo2D.cs" />
     <Compile Include="Assets\Scripts\PingPongMovement2D.cs" />
     <Compile Include="Assets\Scripts\PivotRotation2D.cs" />
     <Compile Include="Assets\Scripts\TestCollisionAndRays.cs" />
     <Compile Include="Assets\Scripts\Utilities2D.cs" />
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/alumno/Documents/AlejandroGuanilo2D/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/alumno/Documents/AlejandroGuanilo2D/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>/Users/alumno/Documents/AlejandroGuanilo2D/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
