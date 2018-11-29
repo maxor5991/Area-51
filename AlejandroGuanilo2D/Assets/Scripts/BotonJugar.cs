@@ -15,7 +15,8 @@ public class BotonJugar : MonoBehaviour {
 	}
     private void OnMouseDown()
     {
-        Application.LoadLevel("Main");
+       // Application.LoadLevel("Main");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Main");
 
     }
 }

@@ -1,11 +1,8 @@
 ﻿<Properties StartupConfiguration="{57A3F8C1-3ED8-040D-1809-4B2AB2B74369}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PingPongMovement2D.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BotonJugar.cs">
     <Files>
-      <File FileName="Assets/Scripts/MovimientoContinuo2D.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/BulletBehaviour.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/DestroyableObject.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PingPongMovement2D.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/BotonJugar.cs" Line="20" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
